@@ -11,7 +11,7 @@
 
 利用`selectedTextRange`处理光标后，可正常输入和删除。
 
-<img src="https://github.com/1552612373/BankCardInput/blob/master/my_bank.gif" width=200 alt="处理光标后">
+<img src="https://github.com/1552612373/BankCardInput/blob/master/my_bank1.gif" width=200 alt="处理光标后">
 
 ---
 
