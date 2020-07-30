@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5830F93A24D2E4F800B63E7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F93924D2E4F800B63E7B /* AppDelegate.m */; };
+		5830F93D24D2E4F800B63E7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F93C24D2E4F800B63E7B /* SceneDelegate.m */; };
+		5830F94024D2E4F800B63E7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F93F24D2E4F800B63E7B /* ViewController.m */; };
+		5830F94324D2E4F800B63E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5830F94124D2E4F800B63E7B /* Main.storyboard */; };
+		5830F94524D2E4F800B63E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5830F94424D2E4F800B63E7B /* Assets.xcassets */; };
+		5830F94824D2E4F800B63E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5830F94624D2E4F800B63E7B /* LaunchScreen.storyboard */; };
+		5830F94B24D2E4F800B63E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F94A24D2E4F800B63E7B /* main.m */; };
+		5830F95524D2E4F900B63E7B /* BankCardInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F95424D2E4F900B63E7B /* BankCardInputTests.m */; };
+		5830F96024D2E4F900B63E7B /* BankCardInputUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F95F24D2E4F900B63E7B /* BankCardInputUITests.m */; };
+		5830F96F24D2E87300B63E7B /* NSString+YCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830F96E24D2E87300B63E7B /* NSString+YCString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5830F95124D2E4F900B63E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5830F92D24D2E4F800B63E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5830F93424D2E4F800B63E7B;
+			remoteInfo = BankCardInput;
+		};
+		5830F95C24D2E4F900B63E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5830F92D24D2E4F800B63E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5830F93424D2E4F800B63E7B;
+			remoteInfo = BankCardInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5830F93524D2E4F800B63E7B /* BankCardInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankCardInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830F93824D2E4F800B63E7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5830F93924D2E4F800B63E7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5830F93B24D2E4F800B63E7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5830F93C24D2E4F800B63E7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5830F93E24D2E4F800B63E7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5830F93F24D2E4F800B63E7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5830F94224D2E4F800B63E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5830F94424D2E4F800B63E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5830F94724D2E4F800B63E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5830F94924D2E4F800B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830F94A24D2E4F800B63E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5830F95024D2E4F900B63E7B /* BankCardInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830F95424D2E4F900B63E7B /* BankCardInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardInputTests.m; sourceTree = "<group>"; };
+		5830F95624D2E4F900B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830F95B24D2E4F900B63E7B /* BankCardInputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardInputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5830F95F24D2E4F900B63E7B /* BankCardInputUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardInputUITests.m; sourceTree = "<group>"; };
+		5830F96124D2E4F900B63E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5830F96D24D2E87300B63E7B /* NSString+YCString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YCString.h"; sourceTree = "<group>"; };
+		5830F96E24D2E87300B63E7B /* NSString+YCString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YCString.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5830F93224D2E4F800B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F94D24D2E4F900B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F95824D2E4F900B63E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5830F92C24D2E4F800B63E7B = {
+			isa = PBXGroup;
+			children = (
+				5830F93724D2E4F800B63E7B /* BankCardInput */,
+				5830F95324D2E4F900B63E7B /* BankCardInputTests */,
+				5830F95E24D2E4F900B63E7B /* BankCardInputUITests */,
+				5830F93624D2E4F800B63E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5830F93624D2E4F800B63E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5830F93524D2E4F800B63E7B /* BankCardInput.app */,
+				5830F95024D2E4F900B63E7B /* BankCardInputTests.xctest */,
+				5830F95B24D2E4F900B63E7B /* BankCardInputUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5830F93724D2E4F800B63E7B /* BankCardInput */ = {
+			isa = PBXGroup;
+			children = (
+				5830F93824D2E4F800B63E7B /* AppDelegate.h */,
+				5830F93924D2E4F800B63E7B /* AppDelegate.m */,
+				5830F93B24D2E4F800B63E7B /* SceneDelegate.h */,
+				5830F93C24D2E4F800B63E7B /* SceneDelegate.m */,
+				5830F93E24D2E4F800B63E7B /* ViewController.h */,
+				5830F93F24D2E4F800B63E7B /* ViewController.m */,
+				5830F94124D2E4F800B63E7B /* Main.storyboard */,
+				5830F94424D2E4F800B63E7B /* Assets.xcassets */,
+				5830F94624D2E4F800B63E7B /* LaunchScreen.storyboard */,
+				5830F94924D2E4F800B63E7B /* Info.plist */,
+				5830F94A24D2E4F800B63E7B /* main.m */,
+				5830F96D24D2E87300B63E7B /* NSString+YCString.h */,
+				5830F96E24D2E87300B63E7B /* NSString+YCString.m */,
+			);
+			path = BankCardInput;
+			sourceTree = "<group>";
+		};
+		5830F95324D2E4F900B63E7B /* BankCardInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				5830F95424D2E4F900B63E7B /* BankCardInputTests.m */,
+				5830F95624D2E4F900B63E7B /* Info.plist */,
+			);
+			path = BankCardInputTests;
+			sourceTree = "<group>";
+		};
+		5830F95E24D2E4F900B63E7B /* BankCardInputUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5830F95F24D2E4F900B63E7B /* BankCardInputUITests.m */,
+				5830F96124D2E4F900B63E7B /* Info.plist */,
+			);
+			path = BankCardInputUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5830F93424D2E4F800B63E7B /* BankCardInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830F96424D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInput" */;
+			buildPhases = (
+				5830F93124D2E4F800B63E7B /* Sources */,
+				5830F93224D2E4F800B63E7B /* Frameworks */,
+				5830F93324D2E4F800B63E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankCardInput;
+			productName = BankCardInput;
+			productReference = 5830F93524D2E4F800B63E7B /* BankCardInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5830F94F24D2E4F900B63E7B /* BankCardInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830F96724D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInputTests" */;
+			buildPhases = (
+				5830F94C24D2E4F900B63E7B /* Sources */,
+				5830F94D24D2E4F900B63E7B /* Frameworks */,
+				5830F94E24D2E4F900B63E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5830F95224D2E4F900B63E7B /* PBXTargetDependency */,
+			);
+			name = BankCardInputTests;
+			productName = BankCardInputTests;
+			productReference = 5830F95024D2E4F900B63E7B /* BankCardInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5830F95A24D2E4F900B63E7B /* BankCardInputUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5830F96A24D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInputUITests" */;
+			buildPhases = (
+				5830F95724D2E4F900B63E7B /* Sources */,
+				5830F95824D2E4F900B63E7B /* Frameworks */,
+				5830F95924D2E4F900B63E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5830F95D24D2E4F900B63E7B /* PBXTargetDependency */,
+			);
+			name = BankCardInputUITests;
+			productName = BankCardInputUITests;
+			productReference = 5830F95B24D2E4F900B63E7B /* BankCardInputUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5830F92D24D2E4F800B63E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yc;
+				TargetAttributes = {
+					5830F93424D2E4F800B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					5830F94F24D2E4F900B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5830F93424D2E4F800B63E7B;
+					};
+					5830F95A24D2E4F900B63E7B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 5830F93424D2E4F800B63E7B;
+					};
+				};
+			};
+			buildConfigurationList = 5830F93024D2E4F800B63E7B /* Build configuration list for PBXProject "BankCardInput" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5830F92C24D2E4F800B63E7B;
+			productRefGroup = 5830F93624D2E4F800B63E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5830F93424D2E4F800B63E7B /* BankCardInput */,
+				5830F94F24D2E4F900B63E7B /* BankCardInputTests */,
+				5830F95A24D2E4F900B63E7B /* BankCardInputUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5830F93324D2E4F800B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830F94824D2E4F800B63E7B /* LaunchScreen.storyboard in Resources */,
+				5830F94524D2E4F800B63E7B /* Assets.xcassets in Resources */,
+				5830F94324D2E4F800B63E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F94E24D2E4F900B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F95924D2E4F900B63E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5830F93124D2E4F800B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830F94024D2E4F800B63E7B /* ViewController.m in Sources */,
+				5830F93A24D2E4F800B63E7B /* AppDelegate.m in Sources */,
+				5830F94B24D2E4F800B63E7B /* main.m in Sources */,
+				5830F93D24D2E4F800B63E7B /* SceneDelegate.m in Sources */,
+				5830F96F24D2E87300B63E7B /* NSString+YCString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F94C24D2E4F900B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830F95524D2E4F900B63E7B /* BankCardInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830F95724D2E4F900B63E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5830F96024D2E4F900B63E7B /* BankCardInputUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5830F95224D2E4F900B63E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5830F93424D2E4F800B63E7B /* BankCardInput */;
+			targetProxy = 5830F95124D2E4F900B63E7B /* PBXContainerItemProxy */;
+		};
+		5830F95D24D2E4F900B63E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5830F93424D2E4F800B63E7B /* BankCardInput */;
+			targetProxy = 5830F95C24D2E4F900B63E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5830F94124D2E4F800B63E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5830F94224D2E4F800B63E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5830F94624D2E4F800B63E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5830F94724D2E4F800B63E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5830F96224D2E4F900B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5830F96324D2E4F900B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5830F96524D2E4F900B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5830F96624D2E4F900B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5830F96824D2E4F900B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInputTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCardInput.app/BankCardInput";
+			};
+			name = Debug;
+		};
+		5830F96924D2E4F900B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInputTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCardInput.app/BankCardInput";
+			};
+			name = Release;
+		};
+		5830F96B24D2E4F900B63E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankCardInput;
+			};
+			name = Debug;
+		};
+		5830F96C24D2E4F900B63E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSUV32LBHT;
+				INFOPLIST_FILE = BankCardInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yc.memory.BankCardInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankCardInput;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5830F93024D2E4F800B63E7B /* Build configuration list for PBXProject "BankCardInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830F96224D2E4F900B63E7B /* Debug */,
+				5830F96324D2E4F900B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830F96424D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830F96524D2E4F900B63E7B /* Debug */,
+				5830F96624D2E4F900B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830F96724D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830F96824D2E4F900B63E7B /* Debug */,
+				5830F96924D2E4F900B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5830F96A24D2E4F900B63E7B /* Build configuration list for PBXNativeTarget "BankCardInputUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5830F96B24D2E4F900B63E7B /* Debug */,
+				5830F96C24D2E4F900B63E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5830F92D24D2E4F800B63E7B /* Project object */;
+}
