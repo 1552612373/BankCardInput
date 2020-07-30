@@ -5,7 +5,7 @@
 
 **!!! 如果没有考虑到光标，直接处理字符串的话，会像支付宝一样，在光标移动后，输入或删除时，产生错乱的bug。如下动图**
 
-<img src="https://github.com/1552612373/BankCardInput/blob/master/alipay_bank.mp4" width=200 alt="支付宝输入错乱">
+<img src="https://github.com/1552612373/BankCardInput/blob/master/alipay_bank.gif" width=200 alt="支付宝输入错乱">
 
 ---
 
